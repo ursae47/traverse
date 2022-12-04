@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
@@ -11,7 +12,7 @@ import math
 import os
 
 # clear screen and input values
-os.system('cls')
+os.system('clear')
 distance=float(input("What's the value for 'distance' in miles?  "))
 bearing=float(input("What's the value for 'bearing'in degrees?  "))
 
