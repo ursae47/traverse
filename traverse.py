@@ -36,11 +36,11 @@ if abs(diffLat)>=60:
 #print results
 #   print("difflat/60", diffLat) - used for debugging
 #   print("diffLatMinutes", diffLatMinutes) - used for debugging
-    print('Difference in Latitude = {0:.0f}'.format(math.trunc(diffLat)), "degrees"," {0:.2f} ".format(round(diffLatMinutes,2)), "minutes")
+    print('Traverse Difference in Latitude = {0:.0f}'.format(math.trunc(diffLat)), "degrees"," {0:.2f} ".format(round(diffLatMinutes,2)), "minutes")
 
 else:
 #       print("difflat", diffLat) - used for debugging
-        print("Difference in Latitude = {0:.2f}".format(round(diffLat,2)), "minutes")
+        print("Traverse Difference in Latitude = {0:.2f}".format(round(diffLat,2)), "minutes")
 
 departure=distance*math.sin(radbearing)
 print("Departure = {0:.2f}".format(round(departure,2)), "miles")
